@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+<h1 align="center">Cotizador de criptomonedas</h1>
+<div align="center">
+    <img src="public/cotizador.PNG" style="width:700px" alt="Cotizador de criptomonedas"> 
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2> :page_facing_up: Descripción del proyecto</h2>
 
-Currently, two official plugins are available:
+<p> La aplicación consiste en la búsqueda de la cotización de una moneda en particular en cualquier criptomoneda, recogiendo
+datos de una API</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Proyecto: <a href="https://monumental-taffy-293568.netlify.app" target="_blank">Cotizador</a></b>
 
-## Expanding the ESLint configuration
+<h2> :heavy_check_mark: Características</h2>
+<p> Proyecto creado en React donde se utilizará una API (<a href="https://min-api.cryptocompare.com/documentation">Documentación</a>).
+  Para realizar el type se utilizará ZOD, para los estilos se ha utilizado css y también 
+  se incorporará un <a href="https://tobiasahlin.com/spinkit/">spinner de carga</a> para tener una buena retroalimentación.
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2> :hammer: Tecnologías aplicadas</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<ul>
+  <li>React</li>
+  <li>Vite</li>
+  <li>TypeScript</li>
+  <li>CSS</li>
+  <li>JSX</li>
+  <li>API</li>
+  <li>ZOD</li>
+</ul>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<h2>Idea del proyecto</h2>
+<p>Este proyecto fue realizado durante el curso de <a href="https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/?couponCode=KEEPLEARNING">React y TypeScript</a></p>
